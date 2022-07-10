@@ -1,8 +1,156 @@
-body{
-    background-color: gray;
-}
-
+/*/header*/
 .navbar{
     background: #EEC041;
     margin: 50px;
+}
+li .nav-link {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+/* aside */
+
+aside{
+    background-image: url("/images/website-3374825_1280.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+aside h1{
+    text-align: center;
+    color: #000000;
+}
+
+aside h2{
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10%;
+}
+
+#cv{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+aside p, aside a{
+    background-color: #eec041a6;
+    margin: 0 20px 10% 0;
+    border-radius: 60px;
+    text-align: center;
+    color: #000000;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+aside a:hover{
+    font-size: xx-large;
+    color: #EEC041;
+    background-color: white;
+}
+
+/*Compétences */
+
+.comp{
+    background: #EEC041;
+    margin: 5%;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+#comp{
+    background: white;
+    border-radius: 18px;
+    padding: 30px;
+}
+
+#titrecomp{
+    color: white;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.progress{
+    margin-bottom: 40px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+/*Atouts */
+
+#titreatout{
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+#atout{
+    background:#EEC041;
+    border-radius: 18px;
+    padding: 15px;
+    margin-bottom: 10px;
+    float: right;
+     animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.mot{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: x-large;
+    font-weight: 800;
+    color: white;
+    padding: 15px;
+    animation-iteration-count: infinite;
+    animation: 2s anim-flipX ease infinite;
+    
+    
+}
+
+#mot{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 10px;
+    font-weight: 800;
+    color: white;
+    font-size: x-large;
+	user-select: none;
+    animation: balance 1.5s ease-out;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes balance {
+	50%, 60% {
+		transform: rotate(-8deg);
+        text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
+	}
+}
+ 
+  @keyframes anim-flipX {
+    0% {
+        color: black;
+        transform: scale(0);
+        opacity: 0;
+        text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+      }
+      25% {
+        color: rgb(0, 0, 0);
+        transform: scale(1);
+        opacity: 1;
+        text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
+      }
+     
+    }
+
+#titreatout{
+    text-align: right;
+}
+.atouts{
+    margin: 5%;
 }

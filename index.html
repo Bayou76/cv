@@ -15,38 +15,123 @@
     <title>CV baya</title>
 </head>
 
-<body>
+<body class="bg">
 
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarScroll">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                        <li >
-                            <a class="nav-link active" aria-current="page" href="#">Qui suis-je ?</a>
+                        <li>
+                            <a class="nav-link active" aria-current="page" href="#moi">Qui suis-je ?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Compétences / Atouts</a>
+                            <a class="nav-link" href="#competences">Compétences</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Formations</a>
+                            <a class="nav-link" href="#atouts">Atouts</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Expériences professionnelles</a>
+                            <a class="nav-link" href="#formations">Formations</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="#expProf">Expériences professionnelles</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
 
     </header>
+    <main>
 
+        <aside class="container" id="moi">
+            <h1>SEBIA BAYA <br> Développeuse web <br> et web mobille</h1>
+            <h2>Bienvenue dans mon univers</h2>
+            <a id="cv" href="/images/cvBAYOU.png"> CV </a>
+            <div class="container row">
+                <a href="tel:+33758473600" class="col"><img src="/images/icons8-téléphone-50.png"
+                        alt="tel">07-58-47-36-00</a>
+                <a class="col" href="mailto:sebia.baya@gmail.com"><img src="/images/icons8-courrier-50.png"
+                        alt="mail">sebia.baya@gmail.com</a> >
+                <a class="col" href="https://www.linkedin.com/in/baya-sebia/"><img src="/images/icons8-linkedin-50.png"
+                        alt="in"></a>
+            </div>
+        </aside>
+
+        <article>
+            <section class="container comp" id="competences">
+                <h3 id="titrecomp">Mes Compétences</h3>
+                <div id="comp" class="col">
+                    <img class="logo" src="/images/icons8-html-5-48.png" alt="logo">
+                    <div class="progress">
+
+                        <div class="progress-bar progress-bar-striped bg-success progress-bar-animated"
+                            role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                            style="width: 90%"></div>
+                    </div>
+                    <img class="logo" src="/images/icons8-css3-64.png" alt="logo">
+                    <div class="progress">
+
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+                    </div>
+                    <img class="logo" src="/images/icons8-javascript.gif" alt="logo">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar"
+                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+                    </div><img class="logo" src="/images/icons8-office-365-48.png" alt="logo">
+                    <div class="progress">
+
+                        <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated"
+                            role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"
+                            style="width: 95%"></div>
+                    </div>
+                    <img class="logo" src="/images/icons8-logo-de-mysql-48.png" alt="logo">
+                    <div class="progress">
+
+                        <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated"
+                            role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"
+                            style="width: 30%"></div>
+                    </div>
+                    <img class="logo" src="/images/icons8-python.gif" alt="logo">
+                    <div class="progress">
+
+                        <div class="progress-bar progress-bar-striped text-bg-secondary progress-bar-animated"
+                            role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"
+                            style="width: 30%"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="container atouts" id="atouts">
+                <h3 id="titreatout">Mes Atouts</h3>
+                <div class="container col" id="atout">
+                    <div class="mot">
+                        <p>Travail en équipe</p>
+                        <p>Autonome</p>
+                    </div>
+                    <div id="mot">
+                        <p>Polyvalente</p>
+                        <p>Organisée</p>
+                    </div>
+                    <div class="mot">
+                        <p>Capacité d'adaptation</p>
+                        <p>Capacité d'écoute</p>
+                    </div>
+                </div>
+
+            </section>
+        </article>
+
+    </main>
 
 </body>
 

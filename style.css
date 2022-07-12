@@ -1,3 +1,8 @@
+.container{
+    width: 100%;
+    padding-right: 15px;
+    margin-left: 15px;
+}
 /*/header*/
 .navbar{
     background: #EEC041;
@@ -9,6 +14,10 @@ li .nav-link {
 }
 
 /* aside */
+
+main{
+    background-color: #EEC041;
+}
 
 aside{
     background-image: url("/images/website-3374825_1280.jpg");
@@ -89,11 +98,11 @@ aside a:hover{
 }
 
 #atout{
-    background:#EEC041;
     border-radius: 18px;
     padding: 15px;
     margin-bottom: 10px;
     float: right;
+    background-color: white;
      animation-name: example;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -156,16 +165,49 @@ aside a:hover{
     margin: 5%;
 }
 
+/*Formation */
 
+
+#form{
+    background-color: #EEC041;
+    margin-bottom: 5%;
+}
+.forma1{
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
+    color: white;
+}
+
+/* exper prof */ 
+
+#expProf{
+    background-color: #EEC041;
+    margin-bottom: 5%;
+    padding: 5%;
+
+}
+
+#exp{
+    background-color: white;
+    color: #707070;
+    text-align: center;
+}
 
 /*centre d'intéret */ 
 
+#centre h3{
+    text-align: center;
+    font-size: xx-large;
+}
+
 #centre{
     background:#EEC041;
-    border-radius: 18px;
+    border-radius: 180px;
     padding: 15px;
     margin-bottom: 10px;
     color: white;
+    
 }
 
 .ci{
